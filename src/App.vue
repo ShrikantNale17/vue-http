@@ -3,14 +3,19 @@
   <!-- <PostList /> -->
   <!-- <ParentComp /> -->
 
-  <TemplateRef />
+  <!-- <TemplateRef /> -->
+
+  <ClickCounter />
+  <HoverCounter />
 </template>
 
 <script>
 // import PostList from "./components/PostList.vue";
 // import CreatePost from "./components/CreatePost.vue";
 // import ParentComp from "./components/ParentComp.vue";
-import TemplateRef from "./components/TemplateRef.vue";
+// import TemplateRef from "./components/TemplateRef.vue";
+import ClickCounter from "./components/ClickCounter.vue";
+import HoverCounter from "./components/HoverCounter.vue";
 
 export default {
   name: "App",
@@ -18,7 +23,9 @@ export default {
     // PostList,
     // CreatePost,
     // ParentComp,
-    TemplateRef,
+    // TemplateRef,
+    ClickCounter,
+    HoverCounter,
   },
 };
 </script>
